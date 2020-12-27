@@ -1,0 +1,31 @@
+<table  class="table" border="1px">
+        <form action="/doSearch" method="post">
+        Find Product <input type="text" name="txtName" id="">
+        <input type="submit" value="Search">
+        <br>
+        </form>
+</table>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" href="/home">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="/insert">New Product</a>
+                <a class="dropdown-item" href="/view">View Product</a>
+                
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Users</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="/newU">New User</a>
+                <a class="dropdown-item" href="/viewUser">View User</a>
+                
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/exit">Logout</a>
+        </li>
+    </ul>
